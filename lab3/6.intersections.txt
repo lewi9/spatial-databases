@@ -1,0 +1,12 @@
+WITH intersections AS (
+	SELECT node_id, ST_Transform(wkb_geometry, 3068) as geometry
+	FROM T2019_KAR_STREET_NODE AS a
+	WHERE a."intersect" = 'Y'
+), new_line AS (
+	SELECT ST_MakeLine(geometry) AS geometry FROM input_points
+)
+
+SELECT DISTINCT(left_table.*)
+FROM intersections AS left_table
+CROSS JOIN new_line AS right_table
+WHERE ST_Contains(ST_Buffer(right_table.geometry, 0.002), left_table.geometry)

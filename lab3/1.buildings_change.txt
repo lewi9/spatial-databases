@@ -1,0 +1,8 @@
+-- "wyremontowane" or new buildings - change in geometry or height
+-- Anti Join
+
+SELECT left_table.*
+FROM T2019_KAR_BUILDINGS AS left_table
+LEFT JOIN T2018_KAR_BUILDINGS AS right_table 
+ON left_table.wkb_geometry = right_table.wkb_geometry AND left_table.height = right_table.height
+WHERE right_table.wkb_geometry IS NULL;

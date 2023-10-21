@@ -1,0 +1,5 @@
+SELECT DISTINCT(ST_Intersection(left_table.wkb_geometry, right_table.wkb_geometry)) AS wkb_geometry
+INTO T2019_KAR_BRIDGES
+FROM T2019_KAR_RAILWAYS AS left_table
+CROSS JOIN T2019_KAR_WATER_LINES AS right_table
+WHERE ST_Intersects(left_table.wkb_geometry, right_table.wkb_geometry)
