@@ -263,3 +263,18 @@ SELECT AddRasterConstraints('lab6'::name,
 'tpi30'::name,'rast'::name);;
 
 -- Samodzielne rozwiązanie
+-- Yeah, it it faster, but we don't obtain full result, only for Porto :(
+
+DROP TABLE IF EXISTS lab6.tpi30_porto;
+
+create table lab6.tpi30_porto as
+select ST_TPI(a.rast,1) as rast
+from lab6.intersects a;
+
+CREATE INDEX idx_tpi30_potyo_rast_gist ON lab6.tpi30_porto
+USING gist (ST_ConvexHull(rast));
+
+SELECT AddRasterConstraints('lab6'::name,
+'tpi30_porto'::name,'rast'::name);
+
+SELECT * FROM lab6.tpi30_porto;
