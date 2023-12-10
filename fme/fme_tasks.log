@@ -1,0 +1,1318 @@
+2023-12-10 07:21:21|   0.0|  0.0|INFORM|Current FME version: FME 2023.1.2.0 (20231110 - Build 23641 - WIN64)
+2023-12-10 07:21:21|   0.0|  0.0|INFORM|System Time: 20231210062121 UTC
+2023-12-10 07:21:21|   0.0|  0.0|INFORM|FME_HOME is 'D:\FME\'
+2023-12-10 07:21:21|   0.0|  0.0|INFORM|FME for March (node locked-crc)
+2023-12-10 07:21:21|   0.0|  0.0|INFORM|Serial Number: 0
+2023-12-10 07:21:21|   0.0|  0.0|INFORM|Temporary License: 114 days left.
+2023-12-10 07:21:21|   0.0|  0.0|INFORM|Machine host name is: LAPTOP-ISFGNPJ1
+2023-12-10 07:21:21|   0.0|  0.0|INFORM|OS Locale Name     : pl_PL
+2023-12-10 07:21:21|   0.0|  0.0|INFORM|OS Locale Encoding : windows-1250
+2023-12-10 07:21:21|   0.0|  0.0|INFORM|Process Encoding   : UTF-8
+2023-12-10 07:21:21|   0.0|  0.0|INFORM|FME API version: '4.0 20230426'
+2023-12-10 07:21:21|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2023-12-10 07:21:21|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\Users\Adam\Desktop\bdp\fme/'
+2023-12-10 07:21:21|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'fme_tasks.fmw'
+2023-12-10 07:21:21|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2023.1.2.0'
+2023-12-10 07:21:21|   0.0|  0.0|INFORM|Operating System: Microsoft Windows 11 64-bit  (Build 22621)
+2023-12-10 07:21:21|   0.0|  0.0|INFORM|FME Platform: WIN64
+2023-12-10 07:21:21|   0.0|  0.0|INFORM|System Status: 29.80 GB of disk space available in the FME temporary folder (C:\Users\Adam\AppData\Local\Temp\wbrun_1702188533613_7708\fmetmp_1)
+2023-12-10 07:21:21|   0.0|  0.0|INFORM|System Status: 15.69 GB of physical memory available
+2023-12-10 07:21:21|   0.0|  0.0|INFORM|System Status: 62.75 GB of virtual memory available
+2023-12-10 07:21:21|   0.0|  0.0|INFORM|START - ProcessID: 17372, peak process memory usage: 42340 kB, current process memory usage: 42340 kB
+2023-12-10 07:21:21|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `D:\FME\fme.exe' `C:\Users\Adam\Desktop\bdp\fme\wb-xlate-1702189277440_7708' `LOG_STANDARDOUT' `YES' `LOG_TIMINGS' `YES' `LogCountServerName' `51094' `LOG_STANDARDOUT' `No' `WORKBENCH_LOG_SERVER' `50490'
+2023-12-10 07:21:21|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\Adam\AppData\Roaming\Safe Software\FME\'
+2023-12-10 07:21:22|   0.0|  0.0|INFORM|Shared folders for formats are : D:\FME\datasources;C:\Users\Adam\Documents\FME\Formats
+2023-12-10 07:21:22|   0.0|  0.0|INFORM|Shared folders for transformers are : C:\Users\Adam\AppData\Roaming\Safe Software\FME\Packages\23641-win64\transformers;D:\FME\transformers;C:\Users\Adam\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2023-12-10 07:21:22|   0.0|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\Adam\Documents\FME\CoordinateSystems
+2023-12-10 07:21:22|   0.0|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\Adam\Documents\FME\CoordinateSystemExceptions
+2023-12-10 07:21:22|   0.0|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\Adam\Documents\FME\CoordinateSystemGridOverrides
+2023-12-10 07:21:22|   0.0|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\Adam\Documents\FME\CsmapTransformationExceptions
+2023-12-10 07:21:22|   0.0|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\Adam\Documents\FME\TransformerCategories
+2023-12-10 07:21:22|   0.0|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2023-12-10 07:21:22|   0.0|  0.0|INFORM|FME Configuration: Writer Keyword is `PRIMARY_DEST'
+2023-12-10 07:21:22|   0.0|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `PRIMARY_DEST_DEF'
+2023-12-10 07:21:22|   0.0|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2023-12-10 07:21:22|   0.0|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2023-12-10 07:21:22|   0.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2023-12-10 07:21:22|   0.0|  0.0|INFORM|FME Configuration: Current working folder is `C:\Users\Adam\Desktop\bdp\fme'
+2023-12-10 07:21:22|   0.0|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\Adam\AppData\Local\Temp\wbrun_1702188533613_7708\fmetmp_1', set from environment variable `FME_TEMP'
+2023-12-10 07:21:22|   0.0|  0.0|INFORM|FME Configuration: Cache folder is 'C:\Users\Adam\AppData\Local\Temp'
+2023-12-10 07:21:22|   0.0|  0.0|INFORM|FME Configuration: FME_HOME is `D:\FME\'
+2023-12-10 07:21:22|   0.0|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 47.06 GB
+2023-12-10 07:21:22|   0.0|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 35.30 GB
+2023-12-10 07:21:23|   0.0|  0.0|INFORM|Creating writer for format: 
+2023-12-10 07:21:23|   0.0|  0.0|INFORM|Creating reader for format: 
+2023-12-10 07:21:23|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2023-12-10 07:21:23|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding GEOTIFF Reader with keyword GEOTIFF_1
+2023-12-10 07:21:23|   0.0|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|FME Configuration: Reading 56 dataset(s) with GEOTIFF reader identified by GEOTIFF_1
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|MULTI_READER(GEOTIFF_1): Will continue past member reader failures
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|MULTI_READER(GEOTIFF_1): Adding GEOTIFF Reader with keyword GEOTIFF_1
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|Using Multi Reader with keyword `GEOTIFF_1' to read multiple datasets
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|Loaded module 'GEOTIFF' from file 'D:\FME\plugins/gdal/GDAL.dll'
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|FME API version of module 'gdal/GDAL' matches current internal version (4.0 20230426)
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\HP.tif'
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|Using MultiWriter with keyword `PRIMARY_DEST' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|Loaded module 'LogCount_func' from file 'D:\FME\plugins/LogCount_func.dll'
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (4.0 20230426)
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|FME Configuration: Using FME Reprojection Engine
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|Loaded module 'RasterProperties_func' from file 'D:\FME\plugins/RasterProperties_func.dll'
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|FME API version of module 'RasterProperties_func' matches current internal version (4.0 20230426)
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|Loaded module 'PythonFactory' from file 'D:\FME\plugins/PythonFactory.dll'
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|FME API version of module 'PythonFactory' matches current internal version (4.0 20230426)
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|Using Python interpreter from `D:\FME\fmepython311\python311.dll' with PYTHONHOME `D:\FME\fmepython311'
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|Python version 3.11 loaded successfully
+2023-12-10 07:21:24|   0.0|  0.0|INFORM|Adding folder `C:\Users\Adam\Desktop\bdp\fme\' to the python path
+2023-12-10 07:21:25|   0.0|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:21:25|   0.0|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:21:25|   0.1|  0.1|INFORM|The EPSG number of the FME coordinate system 'OSGB-GPS-2015-OSTN15' is '27700'
+2023-12-10 07:21:25|   0.1|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:21:25|   0.1|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:21:26|   0.2|  0.1|WARN  |Reprojector: Ignoring source coordinate system 'EPSG:27700' in favor of feature coordinate system. This warning will not be repeated
+2023-12-10 07:21:26|   0.2|  0.0|INFORM|CS-MAP Reprojector: Transformation will be automatically selected for 'OSGB-GPS-2015-OSTN15' -> 'LL-WGS84', and is not guaranteed to remain the same in future releases of FME
+2023-12-10 07:21:26|   0.2|  0.0|INFORM|Reprojector: Using transformation `Datum:ETRS89/01,Forward(Geocentric)' when reprojecting from OSGB-GPS-2015-OSTN15 to LL-WGS84
+2023-12-10 07:21:26|   0.2|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:21:26|   0.2|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4055, 4062)
+2023-12-10 07:21:26|   0.2|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00046399532592478416, 0.00022437105078838956)
+2023-12-10 07:21:26|   0.2|  0.0|INFORM|Reprojector: Recalculating raster extents from (400000, 1200000), (500000, 1300000) to (-2.001882540089086, 60.670721473834675), (-0.11713352618261275, 61.580546084781595)
+2023-12-10 07:21:26|   0.3|  0.1|INFORM|CS-MAP Reprojector: Transformation will be automatically selected for 'LL-WGS84' -> 'OSGB-GPS-2015-OSTN15', and is not guaranteed to remain the same in future releases of FME
+2023-12-10 07:21:26|   0.3|  0.0|INFORM|Reprojector: Using transformation `Datum:ETRS89/01,Inverse(Geocentric)' when reprojecting from LL-WGS84 to OSGB-GPS-2015-OSTN15
+2023-12-10 07:21:31|   3.5|  3.2|INFORM|FFS writer: Completed 54.3% of intermediate processing
+2023-12-10 07:21:35|   6.6|  3.1|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:21:40|  10.2|  3.6|INFORM|FFS writer: Completed 55.63% of intermediate processing
+2023-12-10 07:21:44|  13.2|  3.0|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:21:45|  13.4|  0.2|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:21:45|  13.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:21:45|  13.4|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:21:45|  13.4|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:21:45|  13.4|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:21:45|  13.4|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:21:45|  13.4|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\HT.tif'
+2023-12-10 07:21:45|  13.4|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:21:45|  13.4|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:21:45|  13.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:21:45|  13.4|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:21:45|  13.4|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:21:45|  13.5|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4054, 4055)
+2023-12-10 07:21:45|  13.5|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00045135667427233836, 0.0002244556229624527)
+2023-12-10 07:21:45|  13.5|  0.0|INFORM|Reprojector: Recalculating raster extents from (300000, 1100000), (400000, 1200000) to (-3.8319651809511064, 59.77328094103246), (-2.0017138667767744, 60.68322403652224)
+2023-12-10 07:21:50|  17.1|  3.6|INFORM|FFS writer: Completed 51.52% of intermediate processing
+2023-12-10 07:21:55|  20.5|  3.4|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:22:00|  24.3|  3.8|INFORM|FFS writer: Completed 52.66% of intermediate processing
+2023-12-10 07:22:05|  27.8|  3.5|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:22:05|  27.8|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:22:05|  27.8|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:22:05|  27.8|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:22:05|  27.8|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:22:05|  27.8|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:22:05|  27.8|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:22:05|  27.8|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\HU.tif'
+2023-12-10 07:22:05|  27.8|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:22:05|  27.8|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:22:05|  27.8|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:22:05|  27.8|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:22:05|  27.8|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:22:05|  27.8|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4054, 4055)
+2023-12-10 07:22:05|  27.8|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0004513603834081946, 0.00022445592682520136)
+2023-12-10 07:22:05|  27.8|  0.0|INFORM|Reprojector: Recalculating raster extents from (400000, 1100000), (500000, 1200000) to (-2.0018559950218013, 59.77327975573903), (-0.1715896403015722, 60.6832240830884)
+2023-12-10 07:22:10|  31.3|  3.5|INFORM|FFS writer: Completed 51.77% of intermediate processing
+2023-12-10 07:22:15|  34.5|  3.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:22:20|  38.1|  3.6|INFORM|FFS writer: Completed 51.35% of intermediate processing
+2023-12-10 07:22:24|  41.3|  3.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:22:24|  41.3|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:22:24|  41.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:22:24|  41.3|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:22:24|  41.3|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:22:24|  41.3|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:22:24|  41.3|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:22:24|  41.3|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\HW.tif'
+2023-12-10 07:22:24|  41.3|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:22:24|  41.3|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:22:24|  41.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:22:24|  41.3|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:22:24|  41.3|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:22:24|  41.3|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4254, 4255)
+2023-12-10 07:22:24|  41.3|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0004381523337608781, 0.0002243261916745711)
+2023-12-10 07:22:24|  41.3|  0.0|INFORM|Reprojector: Recalculating raster extents from (100000, 1000000), (200000, 1100000) to (-7.3320820960946484, 58.78279831037282), (-5.467743915942112, 59.73708192975644)
+2023-12-10 07:22:29|  44.7|  3.4|INFORM|FFS writer: Completed 45.29% of intermediate processing
+2023-12-10 07:22:34|  48.4|  3.7|INFORM|FFS writer: Completed 90.78% of intermediate processing
+2023-12-10 07:22:35|  49.1|  0.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:22:40|  52.4|  3.3|INFORM|FFS writer: Completed 45.79% of intermediate processing
+2023-12-10 07:22:45|  56.1|  3.7|INFORM|FFS writer: Completed 90.59% of intermediate processing
+2023-12-10 07:22:46|  56.9|  0.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:22:46|  56.9|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:22:46|  56.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:22:46|  56.9|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:22:46|  56.9|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:22:46|  56.9|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:22:46|  56.9|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:22:46|  56.9|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\HX.tif'
+2023-12-10 07:22:47|  56.9|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:22:47|  56.9|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:22:47|  56.9|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:22:47|  56.9|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:22:47|  56.9|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:22:47|  56.9|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4155, 4155)
+2023-12-10 07:22:47|  56.9|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00043898081961880853, 0.00022443209041036192)
+2023-12-10 07:22:47|  56.9|  0.0|INFORM|Reprojector: Recalculating raster extents from (200000, 1000000), (300000, 1100000) to (-5.560307685284469, 58.84073880240041), (-3.7363423797683195, 59.773254138055464)
+2023-12-10 07:22:52|  60.4|  3.5|INFORM|FFS writer: Completed 48.71% of intermediate processing
+2023-12-10 07:22:57|  64.2|  3.8|INFORM|FFS writer: Completed 94.05% of intermediate processing
+2023-12-10 07:22:57|  64.7|  0.5|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:23:02|  68.3|  3.6|INFORM|FFS writer: Completed 48.83% of intermediate processing
+2023-12-10 07:23:07|  72.0|  3.7|INFORM|FFS writer: Completed 97.71% of intermediate processing
+2023-12-10 07:23:07|  72.2|  0.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:23:07|  72.2|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:23:07|  72.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:23:07|  72.2|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:23:07|  72.2|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:23:07|  72.2|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:23:07|  72.2|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:23:07|  72.2|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\HY.tif'
+2023-12-10 07:23:07|  72.2|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:23:07|  72.2|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:23:07|  72.2|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:23:07|  72.2|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:23:08|  72.2|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:23:08|  72.2|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4052, 4053)
+2023-12-10 07:23:08|  72.2|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0004393956189912913, 0.0002244868032431605)
+2023-12-10 07:23:08|  72.2|  0.0|INFORM|Reprojector: Recalculating raster extents from (300000, 1000000), (400000, 1100000) to (-3.782559512285538, 58.87572765365789), (-2.0016890685138344, 59.785348180399176)
+2023-12-10 07:23:13|  75.9|  3.7|INFORM|FFS writer: Completed 50.19% of intermediate processing
+2023-12-10 07:23:17|  79.4|  3.5|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:23:22|  83.1|  3.7|INFORM|FFS writer: Completed 50.86% of intermediate processing
+2023-12-10 07:23:27|  86.8|  3.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:23:27|  86.8|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:23:27|  86.8|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:23:27|  86.8|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:23:27|  86.8|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:23:27|  86.8|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:23:27|  86.8|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:23:27|  86.8|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\HZ.tif'
+2023-12-10 07:23:27|  86.8|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:23:27|  86.8|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:23:27|  86.8|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:23:27|  86.8|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:23:27|  86.8|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:23:27|  86.8|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4052, 4053)
+2023-12-10 07:23:27|  86.8|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0004393961677896628, 0.00022448516169165368)
+2023-12-10 07:23:27|  86.8|  0.0|INFORM|Reprojector: Recalculating raster extents from (400000, 1000000), (500000, 1100000) to (-2.001792778026022, 58.87573432926233), (-0.2209201099745186, 59.78534820443691)
+2023-12-10 07:23:32|  90.4|  3.6|INFORM|FFS writer: Completed 51.25% of intermediate processing
+2023-12-10 07:23:37|  94.1|  3.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:23:42|  97.8|  3.7|INFORM|FFS writer: Completed 50.64% of intermediate processing
+2023-12-10 07:23:47| 101.5|  3.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:23:47| 101.6|  0.1|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:23:47| 101.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:23:47| 101.6|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:23:47| 101.6|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:23:47| 101.6|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:23:47| 101.6|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:23:47| 101.6|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\NA.tif'
+2023-12-10 07:23:47| 101.6|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:23:47| 101.6|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:23:47| 101.6|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:23:47| 101.6|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:23:47| 101.6|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:23:47| 101.6|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4339, 4339)
+2023-12-10 07:23:47| 101.6|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0004258649225747189, 0.00022419042194578507)
+2023-12-10 07:23:47| 101.6|  0.0|INFORM|Reprojector: Recalculating raster extents from (0, 900000), (100000, 1000000) to (-8.91196658805323, 57.80996774383617), (-7.064138689001525, 58.78272998465893)
+2023-12-10 07:23:52| 105.2|  3.6|INFORM|FFS writer: Completed 44.34% of intermediate processing
+2023-12-10 07:23:57| 108.6|  3.4|INFORM|FFS writer: Completed 83.59% of intermediate processing
+2023-12-10 07:23:59| 110.0|  1.4|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:24:04| 113.4|  3.4|INFORM|FFS writer: Completed 44.77% of intermediate processing
+2023-12-10 07:24:09| 117.2|  3.8|INFORM|FFS writer: Completed 89.53% of intermediate processing
+2023-12-10 07:24:10| 118.1|  0.9|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:24:10| 118.1|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:24:10| 118.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:24:10| 118.1|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:24:10| 118.1|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:24:10| 118.1|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:24:10| 118.1|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:24:10| 118.1|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\NB.tif'
+2023-12-10 07:24:10| 118.1|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:24:10| 118.1|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:24:10| 118.1|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:24:10| 118.1|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:24:10| 118.2|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:24:10| 118.2|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4246, 4246)
+2023-12-10 07:24:10| 118.2|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0004270032491469293, 0.00022435348097762516)
+2023-12-10 07:24:10| 118.2|  0.0|INFORM|Reprojector: Recalculating raster extents from (100000, 900000), (200000, 1000000) to (-7.193959498065451, 57.888164784229694), (-5.380903702187589, 58.84076966446069)
+2023-12-10 07:24:15| 121.9|  3.7|INFORM|FFS writer: Completed 46.37% of intermediate processing
+2023-12-10 07:24:20| 125.5|  3.6|INFORM|FFS writer: Completed 91.73% of intermediate processing
+2023-12-10 07:24:21| 126.3|  0.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:24:26| 130.0|  3.7|INFORM|FFS writer: Completed 46.77% of intermediate processing
+2023-12-10 07:24:31| 133.8|  3.8|INFORM|FFS writer: Completed 93.45% of intermediate processing
+2023-12-10 07:24:32| 134.2|  0.4|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:24:32| 134.2|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:24:32| 134.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:24:32| 134.2|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:24:32| 134.2|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:24:32| 134.2|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:24:32| 134.2|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:24:32| 134.2|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\NC.tif'
+2023-12-10 07:24:32| 134.2|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:24:32| 134.2|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:24:32| 134.2|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:24:32| 134.2|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:24:32| 134.3|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:24:32| 134.3|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4150, 4150)
+2023-12-10 07:24:32| 134.3|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.000427769035480786, 0.00022446267235532892)
+2023-12-10 07:24:32| 134.3|  0.0|INFORM|Reprojector: Recalculating raster extents from (200000, 900000), (300000, 1000000) to (-5.467798698690948, 57.94415986158729), (-3.6925572014456858, 58.875679951861905)
+2023-12-10 07:24:37| 137.9|  3.6|INFORM|FFS writer: Completed 48.5% of intermediate processing
+2023-12-10 07:24:42| 141.8|  3.9|INFORM|FFS writer: Completed 96.69% of intermediate processing
+2023-12-10 07:24:42| 142.0|  0.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:24:47| 145.8|  3.8|INFORM|FFS writer: Completed 48.43% of intermediate processing
+2023-12-10 07:24:52| 149.8|  4.0|INFORM|FFS writer: Completed 96.26% of intermediate processing
+2023-12-10 07:24:53| 150.0|  0.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:24:53| 150.1|  0.1|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:24:53| 150.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:24:53| 150.1|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:24:53| 150.1|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:24:53| 150.1|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:24:53| 150.1|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:24:53| 150.1|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\ND.tif'
+2023-12-10 07:24:53| 150.1|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:24:53| 150.1|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:24:53| 150.1|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:24:53| 150.1|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:24:53| 150.1|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:24:53| 150.1|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4050, 4051)
+2023-12-10 07:24:53| 150.1|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0004281491804271142, 0.00022451804728058385)
+2023-12-10 07:24:53| 150.1|  0.0|INFORM|Reprojector: Recalculating raster extents from (300000, 900000), (400000, 1000000) to (-3.73613650815841, 57.97805130097186), (-2.0017041782481706, 58.887349392458226)
+2023-12-10 07:24:58| 153.7|  3.6|INFORM|FFS writer: Completed 51.3% of intermediate processing
+2023-12-10 07:25:02| 157.1|  3.4|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:25:07| 161.0|  3.9|INFORM|FFS writer: Completed 51.48% of intermediate processing
+2023-12-10 07:25:12| 164.3|  3.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:25:12| 164.3|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:25:12| 164.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:25:12| 164.3|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:25:12| 164.3|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:25:12| 164.3|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:25:12| 164.3|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:25:12| 164.3|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\NF.tif'
+2023-12-10 07:25:12| 164.3|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:25:12| 164.3|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:25:12| 164.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:25:12| 164.3|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:25:12| 164.3|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:25:12| 164.3|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4328, 4328)
+2023-12-10 07:25:12| 164.3|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00041544847901757226, 0.00022422052667569046)
+2023-12-10 07:25:12| 164.3|  0.0|INFORM|Reprojector: Recalculating raster extents from (0, 800000), (100000, 900000) to (-8.739721423754213, 56.917770449819976), (-6.941660406566161, 57.888196889272365)
+2023-12-10 07:25:17| 168.1|  3.8|INFORM|FFS writer: Completed 44.7% of intermediate processing
+2023-12-10 07:25:22| 171.9|  3.8|INFORM|FFS writer: Completed 88.9% of intermediate processing
+2023-12-10 07:25:23| 172.8|  0.9|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:25:28| 176.5|  3.7|INFORM|FFS writer: Completed 44.26% of intermediate processing
+2023-12-10 07:25:33| 180.3|  3.8|INFORM|FFS writer: Completed 88.51% of intermediate processing
+2023-12-10 07:25:35| 181.4|  1.1|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:25:35| 181.4|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:25:35| 181.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:25:35| 181.4|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:25:35| 181.4|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:25:35| 181.4|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:25:35| 181.4|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:25:35| 181.4|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\NG.tif'
+2023-12-10 07:25:35| 181.4|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:25:35| 181.4|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:25:35| 181.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:25:35| 181.4|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:25:35| 181.4|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:25:35| 181.4|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4238, 4238)
+2023-12-10 07:25:35| 181.4|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00041650199098649333, 0.00022438422989741306)
+2023-12-10 07:25:35| 181.4|  0.0|INFORM|Reprojector: Recalculating raster extents from (100000, 800000), (200000, 900000) to (-7.063985632249444, 56.99330801552392), (-5.2988501944486845, 57.94424838182916)
+2023-12-10 07:25:40| 184.9|  3.5|INFORM|FFS writer: Completed 46.03% of intermediate processing
+2023-12-10 07:25:45| 188.6|  3.7|INFORM|FFS writer: Completed 91.74% of intermediate processing
+2023-12-10 07:25:46| 189.2|  0.6|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:25:51| 192.9|  3.7|INFORM|FFS writer: Completed 45.82% of intermediate processing
+2023-12-10 07:25:56| 196.6|  3.7|INFORM|FFS writer: Completed 91.59% of intermediate processing
+2023-12-10 07:25:57| 197.3|  0.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:25:57| 197.3|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:25:57| 197.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:25:57| 197.3|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:25:57| 197.3|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:25:57| 197.3|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:25:57| 197.3|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:25:57| 197.3|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\NH.tif'
+2023-12-10 07:25:57| 197.3|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:25:57| 197.3|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:25:57| 197.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:25:57| 197.3|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:25:57| 197.5|  0.2|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:25:57| 197.5|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4145, 4145)
+2023-12-10 07:25:57| 197.5|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0004172094442331072, 0.00022449366536849186)
+2023-12-10 07:25:57| 197.5|  0.0|INFORM|Reprojector: Recalculating raster extents from (200000, 800000), (300000, 900000) to (-5.3807576495412635, 57.04743455491526), (-3.651424503195034, 57.97796079786766)
+2023-12-10 07:26:02| 201.1|  3.6|INFORM|FFS writer: Completed 47.55% of intermediate processing
+2023-12-10 07:26:07| 204.7|  3.6|INFORM|FFS writer: Completed 94.76% of intermediate processing
+2023-12-10 07:26:07| 205.2|  0.5|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:26:12| 209.1|  3.9|INFORM|FFS writer: Completed 48.17% of intermediate processing
+2023-12-10 07:26:17| 213.0|  3.9|INFORM|FFS writer: Completed 95.94% of intermediate processing
+2023-12-10 07:26:18| 213.3|  0.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:26:18| 213.3|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:26:18| 213.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:26:18| 213.3|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:26:18| 213.3|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:26:18| 213.3|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:26:18| 213.3|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:26:18| 213.3|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\NJ.tif'
+2023-12-10 07:26:18| 213.3|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:26:18| 213.3|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:26:18| 213.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:26:18| 213.3|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:26:19| 213.3|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:26:19| 213.3|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4049, 4049)
+2023-12-10 07:26:19| 213.3|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00041756506574517195, 0.00022454794225202493)
+2023-12-10 07:26:19| 213.3|  0.0|INFORM|Reprojector: Recalculating raster extents from (300000, 800000), (400000, 900000) to (-3.6924870740024955, 57.08003078364508), (-2.0017661228002943, 57.989225401823525)
+2023-12-10 07:26:24| 217.2|  3.9|INFORM|FFS writer: Completed 48.85% of intermediate processing
+2023-12-10 07:26:29| 220.9|  3.7|INFORM|FFS writer: Completed 98.49% of intermediate processing
+2023-12-10 07:26:29| 221.0|  0.1|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:26:34| 224.3|  3.3|INFORM|FFS writer: Completed 47.41% of intermediate processing
+2023-12-10 07:26:39| 227.8|  3.5|INFORM|FFS writer: Completed 96.22% of intermediate processing
+2023-12-10 07:26:40| 228.0|  0.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:26:40| 228.0|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:26:40| 228.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:26:40| 228.0|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:26:40| 228.0|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:26:40| 228.0|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:26:40| 228.0|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:26:40| 228.0|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\NK.tif'
+2023-12-10 07:26:40| 228.0|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:26:40| 228.0|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:26:40| 228.0|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:26:40| 228.0|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:26:40| 228.0|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:26:40| 228.0|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4048, 4049)
+2023-12-10 07:26:40| 228.0|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0004175691157512818, 0.00022454828260692815)
+2023-12-10 07:26:40| 228.0|  0.0|INFORM|Reprojector: Recalculating raster extents from (400000, 800000), (500000, 900000) to (-2.001685193721353, 57.08025397483459), (-0.3109478440444129, 57.98922542282744)
+2023-12-10 07:26:45| 231.3|  3.3|INFORM|FFS writer: Completed 42.81% of intermediate processing
+2023-12-10 07:26:50| 234.9|  3.6|INFORM|FFS writer: Completed 89.27% of intermediate processing
+2023-12-10 07:26:51| 235.8|  0.9|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:26:56| 239.8|  4.0|INFORM|FFS writer: Completed 48.96% of intermediate processing
+2023-12-10 07:27:01| 243.7|  3.9|INFORM|FFS writer: Completed 98.17% of intermediate processing
+2023-12-10 07:27:01| 243.9|  0.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:27:01| 243.9|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:27:01| 243.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:27:01| 243.9|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:27:01| 243.9|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:27:01| 243.9|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:27:01| 243.9|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:27:01| 243.9|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\NL.tif'
+2023-12-10 07:27:01| 243.9|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:27:01| 243.9|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:27:01| 243.9|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:27:01| 243.9|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:27:01| 243.9|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:27:01| 243.9|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4317, 4318)
+2023-12-10 07:27:01| 243.9|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00040561873647948667, 0.00022424875785941384)
+2023-12-10 07:27:01| 243.9|  0.0|INFORM|Reprojector: Recalculating raster extents from (0, 700000), (100000, 800000) to (-8.577358411691636, 56.02528553583041), (-6.825896707573213, 56.993367423509504)
+2023-12-10 07:27:06| 246.9|  3.0|INFORM|FFS writer: Completed 30.83% of intermediate processing
+2023-12-10 07:27:11| 250.9|  4.0|INFORM|FFS writer: Completed 69.4% of intermediate processing
+2023-12-10 07:27:15| 253.6|  2.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:27:20| 257.5|  3.9|INFORM|FFS writer: Completed 40.9% of intermediate processing
+2023-12-10 07:27:25| 261.1|  3.6|INFORM|FFS writer: Completed 82.9% of intermediate processing
+2023-12-10 07:27:27| 262.5|  1.4|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:27:27| 262.5|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:27:27| 262.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:27:27| 262.5|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:27:27| 262.5|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:27:27| 262.5|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:27:27| 262.5|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:27:27| 262.5|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\NM.tif'
+2023-12-10 07:27:27| 262.5|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:27:27| 262.5|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:27:27| 262.5|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:27:27| 262.5|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:27:27| 262.5|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:27:27| 262.5|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4230, 4230)
+2023-12-10 07:27:27| 262.5|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00040659987770727584, 0.00022441457058385115)
+2023-12-10 07:27:27| 262.5|  0.0|INFORM|Reprojector: Recalculating raster extents from (100000, 700000), (200000, 800000) to (-6.941516110571508, 56.09825434444165), (-5.2215986278697315, 57.04752797801134)
+2023-12-10 07:27:32| 266.3|  3.8|INFORM|FFS writer: Completed 43.21% of intermediate processing
+2023-12-10 07:27:37| 270.1|  3.8|INFORM|FFS writer: Completed 81.98% of intermediate processing
+2023-12-10 07:27:39| 271.7|  1.6|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:27:44| 275.4|  3.7|INFORM|FFS writer: Completed 37.54% of intermediate processing
+2023-12-10 07:27:49| 279.4|  4.0|INFORM|FFS writer: Completed 80.87% of intermediate processing
+2023-12-10 07:27:52| 281.2|  1.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:27:52| 281.2|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:27:52| 281.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:27:52| 281.2|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:27:52| 281.2|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:27:52| 281.2|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:27:52| 281.2|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:27:52| 281.2|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\NN.tif'
+2023-12-10 07:27:52| 281.3|  0.1|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:27:52| 281.3|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:27:52| 281.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:27:52| 281.3|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:27:52| 281.3|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:27:52| 281.3|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4140, 4140)
+2023-12-10 07:27:52| 281.3|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0004072586478415583, 0.0002245238604661581)
+2023-12-10 07:27:52| 281.3|  0.0|INFORM|Reprojector: Recalculating raster extents from (200000, 700000), (300000, 800000) to (-5.298767571109549, 56.15056892617163), (-3.6127167690454973, 57.080097708501526)
+2023-12-10 07:27:57| 285.1|  3.8|INFORM|FFS writer: Completed 43.91% of intermediate processing
+2023-12-10 07:28:02| 289.0|  3.9|INFORM|FFS writer: Completed 87.46% of intermediate processing
+2023-12-10 07:28:03| 290.0|  1.0|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:28:08| 293.8|  3.8|INFORM|FFS writer: Completed 44.15% of intermediate processing
+2023-12-10 07:28:13| 297.8|  4.0|INFORM|FFS writer: Completed 88.67% of intermediate processing
+2023-12-10 07:28:14| 298.6|  0.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:28:14| 298.6|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:28:14| 298.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:28:14| 298.6|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:28:14| 298.6|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:28:14| 298.6|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:28:14| 298.6|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:28:14| 298.6|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\NO.tif'
+2023-12-10 07:28:14| 298.6|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:28:14| 298.6|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:28:14| 298.6|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:28:14| 298.6|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:28:15| 298.7|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:28:15| 298.7|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4047, 4048)
+2023-12-10 07:28:15| 298.7|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00040758818738360274, 0.00022457899740020048)
+2023-12-10 07:28:15| 298.7|  0.0|INFORM|Reprojector: Recalculating raster extents from (300000, 700000), (400000, 800000) to (-3.65137037523315, 56.18210658567571), (-2.001453392704326, 57.090977788154326)
+2023-12-10 07:28:20| 302.4|  3.7|INFORM|FFS writer: Completed 48.03% of intermediate processing
+2023-12-10 07:28:25| 306.1|  3.7|INFORM|FFS writer: Completed 94.29% of intermediate processing
+2023-12-10 07:28:25| 306.5|  0.4|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:28:30| 310.3|  3.8|INFORM|FFS writer: Completed 49.39% of intermediate processing
+2023-12-10 07:28:35| 314.1|  3.8|INFORM|FFS writer: Completed 98.93% of intermediate processing
+2023-12-10 07:28:35| 314.2|  0.1|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:28:35| 314.2|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:28:35| 314.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:28:35| 314.2|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:28:35| 314.2|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:28:35| 314.2|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:28:35| 314.2|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:28:35| 314.2|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\NR.tif'
+2023-12-10 07:28:35| 314.2|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:28:35| 314.2|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:28:35| 314.2|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:28:35| 314.2|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:28:35| 314.2|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:28:35| 314.2|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4223, 4223)
+2023-12-10 07:28:35| 314.2|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003972484632154702, 0.00022444762313627626)
+2023-12-10 07:28:35| 314.2|  0.0|INFORM|Reprojector: Recalculating raster extents from (100000, 600000), (200000, 700000) to (-6.8259689426255985, 55.202768597533236), (-5.148388682466668, 56.15061091003773)
+2023-12-10 07:28:40| 317.9|  3.7|INFORM|FFS writer: Completed 43.19% of intermediate processing
+2023-12-10 07:28:45| 321.7|  3.8|INFORM|FFS writer: Completed 87.33% of intermediate processing
+2023-12-10 07:28:47| 322.8|  1.1|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:28:52| 326.6|  3.8|INFORM|FFS writer: Completed 43.71% of intermediate processing
+2023-12-10 07:28:57| 330.5|  3.9|INFORM|FFS writer: Completed 87.66% of intermediate processing
+2023-12-10 07:28:58| 331.5|  1.0|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:28:58| 331.5|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:28:58| 331.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:28:58| 331.5|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:28:58| 331.5|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:28:58| 331.5|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:28:58| 331.5|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:28:58| 331.5|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\NS.tif'
+2023-12-10 07:28:58| 331.5|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:28:58| 331.5|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:28:58| 331.5|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:28:58| 331.5|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:28:58| 331.6|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:28:58| 331.6|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4135, 4136)
+2023-12-10 07:28:58| 331.6|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003978642230267623, 0.00022455638393611984)
+2023-12-10 07:28:58| 331.6|  0.0|INFORM|Reprojector: Recalculating raster extents from (200000, 600000), (300000, 700000) to (-5.2214249956305805, 55.25355243252287), (-3.5758585691918916, 56.18209308009873)
+2023-12-10 07:29:03| 335.3|  3.7|INFORM|FFS writer: Completed 46.11% of intermediate processing
+2023-12-10 07:29:08| 339.3|  4.0|INFORM|FFS writer: Completed 92.14% of intermediate processing
+2023-12-10 07:29:09| 339.9|  0.6|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:29:14| 343.7|  3.8|INFORM|FFS writer: Completed 46.11% of intermediate processing
+2023-12-10 07:29:19| 347.4|  3.7|INFORM|FFS writer: Completed 91.85% of intermediate processing
+2023-12-10 07:29:20| 347.9|  0.5|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:29:20| 347.9|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:29:20| 347.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:29:20| 347.9|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:29:20| 347.9|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:29:20| 347.9|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:29:20| 347.9|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:29:20| 347.9|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\NT.tif'
+2023-12-10 07:29:20| 347.9|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:29:20| 347.9|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:29:20| 347.9|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:29:20| 347.9|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:29:20| 348.0|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:29:20| 348.0|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4046, 4046)
+2023-12-10 07:29:20| 348.0|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003981733131196178, 0.0002246116021331951)
+2023-12-10 07:29:20| 348.0|  0.0|INFORM|Reprojector: Recalculating raster extents from (300000, 600000), (400000, 700000) to (-3.61259026086162, 55.283833377680025), (-2.001581035979646, 56.19261191991093)
+2023-12-10 07:29:25| 351.7|  3.7|INFORM|FFS writer: Completed 49.13% of intermediate processing
+2023-12-10 07:29:30| 355.6|  3.9|INFORM|FFS writer: Completed 98.29% of intermediate processing
+2023-12-10 07:29:31| 355.8|  0.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:29:36| 359.5|  3.7|INFORM|FFS writer: Completed 48.73% of intermediate processing
+2023-12-10 07:29:41| 363.1|  3.6|INFORM|FFS writer: Completed 97.75% of intermediate processing
+2023-12-10 07:29:41| 363.3|  0.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:29:41| 363.3|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:29:41| 363.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:29:41| 363.3|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:29:41| 363.3|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:29:41| 363.3|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:29:41| 363.3|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:29:41| 363.3|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\NU.tif'
+2023-12-10 07:29:41| 363.3|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:29:41| 363.3|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:29:41| 363.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:29:41| 363.3|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:29:41| 363.3|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:29:41| 363.3|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4045, 4046)
+2023-12-10 07:29:41| 363.3|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00039817368619716434, 0.00022461120372274489)
+2023-12-10 07:29:41| 363.3|  0.0|INFORM|Reprojector: Recalculating raster extents from (400000, 600000), (500000, 700000) to (-2.001599766965979, 55.28405960879175), (-0.39058903261225186, 56.19261192785025)
+2023-12-10 07:29:46| 367.1|  3.8|INFORM|FFS writer: Completed 49.27% of intermediate processing
+2023-12-10 07:29:51| 370.8|  3.7|INFORM|FFS writer: Completed 97.7% of intermediate processing
+2023-12-10 07:29:51| 371.0|  0.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:29:56| 374.8|  3.8|INFORM|FFS writer: Completed 49.17% of intermediate processing
+2023-12-10 07:30:01| 378.8|  4.0|INFORM|FFS writer: Completed 98.26% of intermediate processing
+2023-12-10 07:30:01| 378.9|  0.1|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:30:01| 378.9|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:30:01| 378.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:30:01| 378.9|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:30:01| 378.9|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:30:01| 378.9|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:30:01| 378.9|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:30:01| 378.9|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\NW.tif'
+2023-12-10 07:30:01| 378.9|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:30:01| 378.9|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:30:01| 378.9|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:30:01| 378.9|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:30:01| 379.0|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:30:01| 379.0|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4215, 4216)
+2023-12-10 07:30:01| 379.0|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00038841427577989763, 0.0002244839443731534)
+2023-12-10 07:30:01| 379.0|  0.0|INFORM|Reprojector: Recalculating raster extents from (100000, 500000), (200000, 600000) to (-6.716834548723263, 54.30730183005372), (-5.079279962035215, 55.25350165558656)
+2023-12-10 07:30:06| 382.6|  3.6|INFORM|FFS writer: Completed 40.56% of intermediate processing
+2023-12-10 07:30:11| 386.2|  3.6|INFORM|FFS writer: Completed 78.57% of intermediate processing
+2023-12-10 07:30:14| 388.2|  2.0|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:30:19| 391.8|  3.6|INFORM|FFS writer: Completed 41.51% of intermediate processing
+2023-12-10 07:30:24| 395.4|  3.6|INFORM|FFS writer: Completed 81.56% of intermediate processing
+2023-12-10 07:30:27| 397.1|  1.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:30:27| 397.1|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:30:27| 397.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:30:27| 397.1|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:30:27| 397.1|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:30:27| 397.1|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:30:27| 397.1|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:30:27| 397.1|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\NX.tif'
+2023-12-10 07:30:27| 397.1|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:30:27| 397.1|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:30:27| 397.1|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:30:27| 397.1|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:30:27| 397.1|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:30:27| 397.2|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4131, 4131)
+2023-12-10 07:30:27| 397.2|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00038898878491033296, 0.0002245906102470386)
+2023-12-10 07:30:27| 397.2|  0.0|INFORM|Reprojector: Recalculating raster extents from (200000, 500000), (300000, 600000) to (-5.148383527976808, 54.35616084972561), (-3.5414708575122225, 55.283944660656125)
+2023-12-10 07:30:32| 400.8|  3.6|INFORM|FFS writer: Completed 38.8% of intermediate processing
+2023-12-10 07:30:37| 404.2|  3.4|INFORM|FFS writer: Completed 78.72% of intermediate processing
+2023-12-10 07:30:39| 406.2|  2.0|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:30:44| 409.8|  3.6|INFORM|FFS writer: Completed 41.78% of intermediate processing
+2023-12-10 07:30:49| 413.5|  3.7|INFORM|FFS writer: Completed 82.54% of intermediate processing
+2023-12-10 07:30:52| 415.1|  1.6|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:30:52| 415.1|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:30:52| 415.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:30:52| 415.1|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:30:52| 415.1|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:30:52| 415.1|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:30:52| 415.1|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:30:52| 415.1|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\NY.tif'
+2023-12-10 07:30:52| 415.1|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:30:52| 415.1|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:30:52| 415.1|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:30:52| 415.1|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:30:52| 415.2|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:30:52| 415.2|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4044, 4045)
+2023-12-10 07:30:52| 415.2|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00038927936314727383, 0.00022464566503019364)
+2023-12-10 07:30:52| 415.2|  0.0|INFORM|Reprojector: Recalculating raster extents from (300000, 500000), (400000, 600000) to (-3.5759697354573996, 54.38564899041624), (-2.0013347115266766, 55.29411605979835)
+2023-12-10 07:30:57| 418.7|  3.5|INFORM|FFS writer: Completed 43.39% of intermediate processing
+2023-12-10 07:31:02| 422.3|  3.6|INFORM|FFS writer: Completed 85.21% of intermediate processing
+2023-12-10 07:31:04| 423.7|  1.4|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:31:09| 427.3|  3.6|INFORM|FFS writer: Completed 43.99% of intermediate processing
+2023-12-10 07:31:14| 430.7|  3.4|INFORM|FFS writer: Completed 91.79% of intermediate processing
+2023-12-10 07:31:15| 431.3|  0.6|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:31:15| 431.3|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:31:15| 431.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:31:15| 431.3|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:31:15| 431.3|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:31:15| 431.3|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:31:15| 431.3|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:31:15| 431.3|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\NZ.tif'
+2023-12-10 07:31:15| 431.3|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:31:15| 431.3|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:31:15| 431.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:31:15| 431.3|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:31:15| 431.3|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:31:15| 431.3|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4044, 4044)
+2023-12-10 07:31:15| 431.3|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00038927859368413875, 0.00022464498762606852)
+2023-12-10 07:31:15| 431.3|  0.0|INFORM|Reprojector: Recalculating raster extents from (400000, 500000), (500000, 600000) to (-2.001556729649332, 54.385651745079166), (-0.4273140967906748, 55.294116075038986)
+2023-12-10 07:31:20| 434.9|  3.6|INFORM|FFS writer: Completed 46.68% of intermediate processing
+2023-12-10 07:31:25| 438.5|  3.6|INFORM|FFS writer: Completed 93.99% of intermediate processing
+2023-12-10 07:31:25| 439.0|  0.5|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:31:30| 442.7|  3.7|INFORM|FFS writer: Completed 47.03% of intermediate processing
+2023-12-10 07:31:35| 446.2|  3.5|INFORM|FFS writer: Completed 94.73% of intermediate processing
+2023-12-10 07:31:36| 446.7|  0.5|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:31:36| 446.7|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:31:36| 446.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:31:36| 446.7|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:31:36| 446.7|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:31:36| 446.7|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:31:36| 446.7|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:31:36| 446.7|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\OV.tif'
+2023-12-10 07:31:36| 446.7|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:31:36| 446.7|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:31:36| 446.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:31:36| 446.7|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:31:36| 446.7|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:31:36| 446.7|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4131, 4131)
+2023-12-10 07:31:36| 446.7|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003889917098096155, 0.00022459091011208584)
+2023-12-10 07:31:36| 446.7|  0.0|INFORM|Reprojector: Recalculating raster extents from (500000, 500000), (600000, 600000) to (-0.46167772381046535, 54.35620619604544), (1.1452470294130563, 55.28399124571847)
+2023-12-10 07:31:41| 450.5|  3.8|INFORM|FFS writer: Completed 43.3% of intermediate processing
+2023-12-10 07:31:46| 454.1|  3.6|INFORM|FFS writer: Completed 84.96% of intermediate processing
+2023-12-10 07:31:48| 455.4|  1.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:31:53| 458.4|  3.0|INFORM|FFS writer: Completed 33.59% of intermediate processing
+2023-12-10 07:31:58| 460.7|  2.3|INFORM|FFS writer: Completed 57.56% of intermediate processing
+2023-12-10 07:32:03| 463.9|  3.2|INFORM|FFS writer: Completed 84.87% of intermediate processing
+2023-12-10 07:32:05| 465.7|  1.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:32:05| 465.7|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:32:05| 465.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:32:05| 465.7|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:32:05| 465.7|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:32:05| 465.7|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:32:05| 465.7|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:32:05| 465.7|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\SC.tif'
+2023-12-10 07:32:05| 465.7|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:32:05| 465.7|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:32:05| 465.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:32:05| 465.7|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:32:06| 465.8|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:32:06| 465.8|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4127, 4127)
+2023-12-10 07:32:06| 465.8|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00038059513602357886, 0.00022462611505538196)
+2023-12-10 07:32:06| 465.8|  0.0|INFORM|Reprojector: Recalculating raster extents from (200000, 400000), (300000, 500000) to (-5.079333312993195, 53.4586110436163), (-3.5086171866238853, 54.38564302044986)
+2023-12-10 07:32:11| 469.2|  3.4|INFORM|FFS writer: Completed 26.79% of intermediate processing
+2023-12-10 07:32:16| 473.1|  3.9|INFORM|FFS writer: Completed 64.74% of intermediate processing
+2023-12-10 07:32:20| 476.2|  3.1|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:32:25| 479.8|  3.6|INFORM|FFS writer: Completed 43.71% of intermediate processing
+2023-12-10 07:32:30| 483.3|  3.5|INFORM|FFS writer: Completed 87.95% of intermediate processing
+2023-12-10 07:32:31| 484.4|  1.1|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:32:31| 484.4|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:32:31| 484.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:32:31| 484.4|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:32:31| 484.4|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:32:31| 484.4|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:32:31| 484.4|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:32:31| 484.4|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\SD.tif'
+2023-12-10 07:32:31| 484.4|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:32:31| 484.4|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:32:31| 484.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:32:31| 484.4|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:32:31| 484.4|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:32:31| 484.5|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4043, 4043)
+2023-12-10 07:32:31| 484.5|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003808657089190631, 0.0002246791381558)
+2023-12-10 07:32:31| 484.5|  0.0|INFORM|Reprojector: Recalculating raster extents from (300000, 400000), (400000, 500000) to (-3.5413500349304825, 53.48710724353718), (-2.0015099737707107, 54.39548499910108)
+2023-12-10 07:32:36| 488.3|  3.8|INFORM|FFS writer: Completed 45.46% of intermediate processing
+2023-12-10 07:32:41| 491.9|  3.6|INFORM|FFS writer: Completed 90.62% of intermediate processing
+2023-12-10 07:32:42| 492.7|  0.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:32:47| 496.4|  3.7|INFORM|FFS writer: Completed 46.57% of intermediate processing
+2023-12-10 07:32:52| 500.2|  3.8|INFORM|FFS writer: Completed 92.45% of intermediate processing
+2023-12-10 07:32:53| 500.7|  0.5|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:32:53| 500.7|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:32:53| 500.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:32:53| 500.7|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:32:53| 500.7|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:32:53| 500.7|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:32:53| 500.7|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:32:53| 500.7|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\SE.tif'
+2023-12-10 07:32:53| 500.7|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:32:53| 500.7|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:32:53| 500.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:32:53| 500.7|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:32:53| 500.8|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:32:53| 500.8|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4042, 4043)
+2023-12-10 07:32:53| 500.8|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.000380865086761458, 0.00022467943927334825)
+2023-12-10 07:32:53| 500.8|  0.0|INFORM|Reprojector: Recalculating raster extents from (400000, 400000), (500000, 500000) to (-2.001512449776636, 53.48733072307156), (-0.46167490400006117, 54.39548501661443)
+2023-12-10 07:32:58| 504.5|  3.7|INFORM|FFS writer: Completed 46.48% of intermediate processing
+2023-12-10 07:33:03| 508.2|  3.7|INFORM|FFS writer: Completed 92.99% of intermediate processing
+2023-12-10 07:33:04| 508.7|  0.5|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:33:09| 512.3|  3.6|INFORM|FFS writer: Completed 46.41% of intermediate processing
+2023-12-10 07:33:14| 515.8|  3.5|INFORM|FFS writer: Completed 92.82% of intermediate processing
+2023-12-10 07:33:15| 516.5|  0.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:33:15| 516.5|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:33:15| 516.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:33:15| 516.5|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:33:15| 516.5|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:33:15| 516.5|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:33:15| 516.5|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:33:15| 516.5|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\SH.tif'
+2023-12-10 07:33:15| 516.5|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:33:15| 516.5|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:33:15| 516.5|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:33:15| 516.6|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:33:15| 516.6|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4123, 4123)
+2023-12-10 07:33:15| 516.6|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00037264457987376065, 0.00022466126886813503)
+2023-12-10 07:33:15| 516.6|  0.0|INFORM|Reprojector: Recalculating raster extents from (200000, 300000), (300000, 400000) to (-5.013969425614166, 52.56091546300313), (-3.4775558227946504, 53.48719387454645)
+2023-12-10 07:33:20| 520.1|  3.5|INFORM|FFS writer: Completed 43.39% of intermediate processing
+2023-12-10 07:33:25| 523.8|  3.7|INFORM|FFS writer: Completed 81.8% of intermediate processing
+2023-12-10 07:33:28| 525.6|  1.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:33:33| 529.5|  3.9|INFORM|FFS writer: Completed 43.75% of intermediate processing
+2023-12-10 07:33:38| 533.1|  3.6|INFORM|FFS writer: Completed 86.87% of intermediate processing
+2023-12-10 07:33:39| 534.1|  1.0|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:33:39| 534.1|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:33:39| 534.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:33:39| 534.1|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:33:39| 534.1|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:33:39| 534.1|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:33:39| 534.1|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:33:39| 534.1|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\SJ.tif'
+2023-12-10 07:33:39| 534.1|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:33:39| 534.1|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:33:39| 534.1|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:33:39| 534.1|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:33:39| 534.2|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:33:39| 534.3|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4041, 4042)
+2023-12-10 07:33:39| 534.3|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003728981869851457, 0.00022471566092934495)
+2023-12-10 07:33:39| 534.3|  0.0|INFORM|Reprojector: Recalculating raster extents from (300000, 300000), (400000, 400000) to (-3.508577307839999, 52.5886426961133), (-2.0013228360460404, 53.49671868192878)
+2023-12-10 07:33:44| 537.9|  3.6|INFORM|FFS writer: Completed 46.69% of intermediate processing
+2023-12-10 07:33:49| 541.5|  3.6|INFORM|FFS writer: Completed 89.21% of intermediate processing
+2023-12-10 07:33:51| 542.4|  0.9|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:33:56| 545.9|  3.5|INFORM|FFS writer: Completed 46.82% of intermediate processing
+2023-12-10 07:34:01| 549.4|  3.5|INFORM|FFS writer: Completed 93.02% of intermediate processing
+2023-12-10 07:34:01| 550.1|  0.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:34:01| 550.1|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:34:01| 550.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:34:01| 550.1|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:34:01| 550.1|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:34:01| 550.1|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:34:01| 550.1|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:34:01| 550.1|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\SK.tif'
+2023-12-10 07:34:02| 550.1|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:34:02| 550.1|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:34:02| 550.1|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:34:02| 550.1|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:34:02| 550.1|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:34:02| 550.2|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4041, 4042)
+2023-12-10 07:34:02| 550.2|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003728947786840249, 0.00022471726444858885)
+2023-12-10 07:34:02| 550.2|  0.0|INFORM|Reprojector: Recalculating raster extents from (400000, 300000), (500000, 400000) to (-2.0014662715850258, 52.58863623184896), (-0.49422557614419715, 53.496718697485704)
+2023-12-10 07:34:07| 553.7|  3.5|INFORM|FFS writer: Completed 46.62% of intermediate processing
+2023-12-10 07:34:12| 557.1|  3.4|INFORM|FFS writer: Completed 92.82% of intermediate processing
+2023-12-10 07:34:12| 557.5|  0.4|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:34:17| 561.1|  3.6|INFORM|FFS writer: Completed 46.25% of intermediate processing
+2023-12-10 07:34:22| 564.6|  3.5|INFORM|FFS writer: Completed 93.04% of intermediate processing
+2023-12-10 07:34:23| 565.1|  0.5|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:34:23| 565.1|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:34:23| 565.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:34:23| 565.2|  0.1|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:34:23| 565.2|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:34:23| 565.2|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:34:23| 565.2|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:34:23| 565.2|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\SM.tif'
+2023-12-10 07:34:23| 565.2|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:34:23| 565.2|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:34:23| 565.2|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:34:23| 565.2|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:34:23| 565.2|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:34:23| 565.2|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4196, 4196)
+2023-12-10 07:34:23| 565.2|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00036462923045468663, 0.00022458777368516414)
+2023-12-10 07:34:23| 565.2|  0.0|INFORM|Reprojector: Recalculating raster extents from (100000, 200000), (200000, 300000) to (-6.423339031263517, 51.61862489413214), (-4.893354780275652, 52.56099519251509)
+2023-12-10 07:34:28| 568.9|  3.7|INFORM|FFS writer: Completed 41.49% of intermediate processing
+2023-12-10 07:34:33| 572.6|  3.7|INFORM|FFS writer: Completed 82.29% of intermediate processing
+2023-12-10 07:34:35| 574.2|  1.6|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:34:40| 577.9|  3.7|INFORM|FFS writer: Completed 41.96% of intermediate processing
+2023-12-10 07:34:45| 581.5|  3.6|INFORM|FFS writer: Completed 83.62% of intermediate processing
+2023-12-10 07:34:47| 582.8|  1.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:34:47| 582.8|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:34:47| 582.8|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:34:47| 582.8|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:34:47| 582.8|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:34:47| 582.8|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:34:47| 582.8|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:34:47| 582.8|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\SN.tif'
+2023-12-10 07:34:47| 582.8|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:34:47| 582.8|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:34:47| 582.8|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:34:47| 582.8|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:34:48| 582.8|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:34:48| 582.8|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4119, 4119)
+2023-12-10 07:34:48| 582.8|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003651059392006156, 0.0002246986674028207)
+2023-12-10 07:34:48| 582.8|  0.0|INFORM|Reprojector: Recalculating raster extents from (200000, 200000), (300000, 300000) to (-4.952026826275667, 51.66305332235857), (-3.448155462708331, 52.58858713339079)
+2023-12-10 07:34:53| 586.3|  3.5|INFORM|FFS writer: Completed 44.01% of intermediate processing
+2023-12-10 07:34:58| 589.7|  3.4|INFORM|FFS writer: Completed 87.73% of intermediate processing
+2023-12-10 07:34:59| 590.8|  1.1|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:35:04| 594.3|  3.5|INFORM|FFS writer: Completed 43.57% of intermediate processing
+2023-12-10 07:35:09| 598.2|  3.9|INFORM|FFS writer: Completed 87.1% of intermediate processing
+2023-12-10 07:35:10| 599.5|  1.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:35:10| 599.5|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:35:10| 599.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:35:10| 599.5|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:35:10| 599.5|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:35:10| 599.5|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:35:10| 599.5|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:35:10| 599.5|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\SO.tif'
+2023-12-10 07:35:10| 599.5|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:35:10| 599.5|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:35:10| 599.5|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:35:10| 599.5|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:35:11| 599.5|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:35:11| 599.5|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4040, 4040)
+2023-12-10 07:35:11| 599.5|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003653426276818543, 0.00022475446006631195)
+2023-12-10 07:35:11| 599.5|  0.0|INFORM|Reprojector: Recalculating raster extents from (300000, 200000), (400000, 300000) to (-3.4775273305943304, 51.6898001864131), (-2.001543114759639, 52.597808205081)
+2023-12-10 07:35:16| 603.1|  3.6|INFORM|FFS writer: Completed 46.83% of intermediate processing
+2023-12-10 07:35:21| 606.7|  3.6|INFORM|FFS writer: Completed 92.87% of intermediate processing
+2023-12-10 07:35:21| 607.2|  0.5|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:35:26| 610.8|  3.6|INFORM|FFS writer: Completed 45.94% of intermediate processing
+2023-12-10 07:35:31| 614.3|  3.5|INFORM|FFS writer: Completed 92.15% of intermediate processing
+2023-12-10 07:35:32| 615.0|  0.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:35:32| 615.0|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:35:32| 615.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:35:32| 615.0|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:35:32| 615.0|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:35:32| 615.0|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:35:32| 615.0|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:35:32| 615.0|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\SP.tif'
+2023-12-10 07:35:32| 615.0|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:35:32| 615.0|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:35:32| 615.0|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:35:32| 615.0|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:35:32| 615.0|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:35:32| 615.0|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4040, 4040)
+2023-12-10 07:35:32| 615.0|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.000365343617337202, 0.00022475396654954774)
+2023-12-10 07:35:32| 615.0|  0.0|INFORM|Reprojector: Recalculating raster extents from (400000, 200000), (500000, 300000) to (-2.0014277898020283, 51.689802187902), (-0.5254395757597323, 52.597808212762175)
+2023-12-10 07:35:37| 618.5|  3.5|INFORM|FFS writer: Completed 46.33% of intermediate processing
+2023-12-10 07:35:42| 621.8|  3.3|INFORM|FFS writer: Completed 92.74% of intermediate processing
+2023-12-10 07:35:43| 622.5|  0.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:35:48| 625.9|  3.4|INFORM|FFS writer: Completed 45.76% of intermediate processing
+2023-12-10 07:35:53| 629.2|  3.3|INFORM|FFS writer: Completed 91.8% of intermediate processing
+2023-12-10 07:35:54| 629.8|  0.6|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:35:54| 629.8|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:35:54| 629.8|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:35:54| 629.8|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:35:54| 629.8|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:35:54| 629.8|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:35:54| 629.8|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:35:54| 629.8|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\SR.tif'
+2023-12-10 07:35:54| 629.8|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:35:54| 629.8|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:35:54| 629.8|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:35:54| 629.8|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:35:54| 629.9|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:35:54| 629.9|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4190, 4190)
+2023-12-10 07:35:54| 629.9|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003575074247371982, 0.0002246235623365471)
+2023-12-10 07:35:54| 629.9|  0.0|INFORM|Reprojector: Recalculating raster extents from (100000, 100000), (200000, 200000) to (-6.335501941014239, 50.72193401019261), (-4.837545831365379, 51.663106736382744)
+2023-12-10 07:35:59| 633.3|  3.4|INFORM|FFS writer: Completed 42.38% of intermediate processing
+2023-12-10 07:36:04| 637.0|  3.7|INFORM|FFS writer: Completed 84.65% of intermediate processing
+2023-12-10 07:36:06| 638.3|  1.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:36:11| 641.8|  3.5|INFORM|FFS writer: Completed 41.88% of intermediate processing
+2023-12-10 07:36:16| 645.3|  3.5|INFORM|FFS writer: Completed 84.58% of intermediate processing
+2023-12-10 07:36:18| 646.7|  1.4|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:36:18| 646.7|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:36:18| 646.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:36:18| 646.7|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:36:18| 646.7|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:36:18| 646.7|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:36:18| 646.7|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:36:18| 646.7|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\SS.tif'
+2023-12-10 07:36:18| 646.7|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:36:18| 646.7|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:36:18| 646.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:36:18| 646.7|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:36:18| 646.7|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:36:18| 646.7|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4115, 4115)
+2023-12-10 07:36:18| 646.7|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00035795453878155573, 0.00022473325294179863)
+2023-12-10 07:36:18| 646.7|  0.0|INFORM|Reprojector: Recalculating raster extents from (200000, 100000), (300000, 200000) to (-4.893279439311852, 50.76504456854215), (-3.4202965122257503, 51.689821904397654)
+2023-12-10 07:36:23| 650.2|  3.5|INFORM|FFS writer: Completed 42.91% of intermediate processing
+2023-12-10 07:36:28| 653.8|  3.6|INFORM|FFS writer: Completed 85.66% of intermediate processing
+2023-12-10 07:36:30| 654.9|  1.1|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:36:35| 658.2|  3.3|INFORM|FFS writer: Completed 43.81% of intermediate processing
+2023-12-10 07:36:40| 661.8|  3.6|INFORM|FFS writer: Completed 86.73% of intermediate processing
+2023-12-10 07:36:42| 663.5|  1.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:36:42| 663.5|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:36:42| 663.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:36:42| 663.5|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:36:42| 663.5|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:36:42| 663.5|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:36:42| 663.5|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:36:42| 663.5|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\ST.tif'
+2023-12-10 07:36:42| 663.5|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:36:42| 663.5|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:36:42| 663.5|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:36:42| 663.5|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:36:42| 663.6|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:36:42| 663.6|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4039, 4039)
+2023-12-10 07:36:42| 663.6|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003581757888184453, 0.00022478897156888173)
+2023-12-10 07:36:42| 663.6|  0.0|INFORM|Reprojector: Recalculating raster extents from (300000, 100000), (400000, 200000) to (-3.448078533263261, 50.79082730340578), (-2.00140652222556, 51.69874995957249)
+2023-12-10 07:36:47| 666.9|  3.3|INFORM|FFS writer: Completed 34.93% of intermediate processing
+2023-12-10 07:36:52| 670.1|  3.2|INFORM|FFS writer: Completed 69.74% of intermediate processing
+2023-12-10 07:36:57| 673.0|  2.9|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:37:02| 676.7|  3.7|INFORM|FFS writer: Completed 42.06% of intermediate processing
+2023-12-10 07:37:07| 680.3|  3.6|INFORM|FFS writer: Completed 84.89% of intermediate processing
+2023-12-10 07:37:09| 681.7|  1.4|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:37:09| 681.7|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:37:09| 681.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:37:09| 681.7|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:37:09| 681.7|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:37:09| 681.7|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:37:09| 681.7|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:37:09| 681.7|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\SU.tif'
+2023-12-10 07:37:09| 681.7|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:37:09| 681.7|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:37:09| 681.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:37:09| 681.7|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:37:09| 681.8|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:37:09| 681.8|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4039, 4039)
+2023-12-10 07:37:09| 681.8|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003581797431448888, 0.00022478608403680942)
+2023-12-10 07:37:09| 681.9|  0.1|INFORM|Reprojector: Recalculating raster extents from (400000, 100000), (500000, 200000) to (-2.001391405995692, 50.79083898406113), (-0.5547034234334862, 51.698749977485804)
+2023-12-10 07:37:14| 685.4|  3.5|INFORM|FFS writer: Completed 44.49% of intermediate processing
+2023-12-10 07:37:19| 689.0|  3.6|INFORM|FFS writer: Completed 86.48% of intermediate processing
+2023-12-10 07:37:20| 690.2|  1.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:37:25| 693.8|  3.6|INFORM|FFS writer: Completed 42.73% of intermediate processing
+2023-12-10 07:37:30| 697.3|  3.5|INFORM|FFS writer: Completed 86.55% of intermediate processing
+2023-12-10 07:37:32| 698.5|  1.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:37:32| 698.5|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:37:32| 698.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:37:32| 698.5|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:37:32| 698.5|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:37:32| 698.5|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:37:32| 698.5|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:37:32| 698.5|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\SV.tif'
+2023-12-10 07:37:32| 698.5|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:37:32| 698.5|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:37:32| 698.5|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:37:32| 698.5|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:37:32| 698.5|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:37:32| 698.5|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4255, 4255)
+2023-12-10 07:37:32| 698.5|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003501057534421107, 0.00022449398637475472)
+2023-12-10 07:37:32| 698.5|  0.0|INFORM|Reprojector: Recalculating raster extents from (0, 0), (100000, 100000) to (-7.6625278630421185, 49.766756481207224), (-6.1728278821459375, 50.72197839323181)
+2023-12-10 07:37:37| 702.0|  3.5|INFORM|FFS writer: Completed 39.57% of intermediate processing
+2023-12-10 07:37:42| 705.4|  3.4|INFORM|FFS writer: Completed 76.8% of intermediate processing
+2023-12-10 07:37:45| 707.4|  2.0|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:37:50| 711.2|  3.8|INFORM|FFS writer: Completed 39.57% of intermediate processing
+2023-12-10 07:37:55| 714.8|  3.6|INFORM|FFS writer: Completed 78.54% of intermediate processing
+2023-12-10 07:37:57| 716.5|  1.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:37:57| 716.6|  0.1|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:37:57| 716.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:37:57| 716.6|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:37:57| 716.6|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:37:57| 716.6|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:37:57| 716.6|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:37:57| 716.6|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\SW.tif'
+2023-12-10 07:37:57| 716.6|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:37:57| 716.6|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:37:57| 716.6|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:37:57| 716.6|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:37:57| 716.6|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:37:57| 716.7|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4184, 4184)
+2023-12-10 07:37:57| 716.7|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003507374807176037, 0.00022465726144096516)
+2023-12-10 07:37:57| 716.7|  0.0|INFORM|Reprojector: Recalculating raster extents from (100000, 0), (200000, 100000) to (-6.252080164915913, 49.82506023685914), (-4.7845945455934595, 50.76502621872814)
+2023-12-10 07:38:02| 720.2|  3.5|INFORM|FFS writer: Completed 40.53% of intermediate processing
+2023-12-10 07:38:07| 723.8|  3.6|INFORM|FFS writer: Completed 81.04% of intermediate processing
+2023-12-10 07:38:10| 725.5|  1.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:38:15| 729.1|  3.6|INFORM|FFS writer: Completed 40.77% of intermediate processing
+2023-12-10 07:38:20| 732.6|  3.5|INFORM|FFS writer: Completed 81.88% of intermediate processing
+2023-12-10 07:38:22| 734.3|  1.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:38:22| 734.3|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:38:22| 734.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:38:22| 734.3|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:38:22| 734.3|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:38:22| 734.3|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:38:22| 734.3|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:38:22| 734.3|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\SX.tif'
+2023-12-10 07:38:22| 734.3|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:38:22| 734.3|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:38:22| 734.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:38:22| 734.3|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:38:22| 734.3|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:38:22| 734.4|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4112, 4112)
+2023-12-10 07:38:22| 734.4|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003511598355136601, 0.0002247673983903962)
+2023-12-10 07:38:22| 734.4|  0.0|INFORM|Reprojector: Recalculating raster extents from (200000, 0), (300000, 100000) to (-4.837489844346824, 49.86666022429658), (-3.3935206007146537, 50.79090376647789)
+2023-12-10 07:38:27| 738.0|  3.6|INFORM|FFS writer: Completed 41.97% of intermediate processing
+2023-12-10 07:38:32| 741.6|  3.6|INFORM|FFS writer: Completed 84.84% of intermediate processing
+2023-12-10 07:38:34| 742.8|  1.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:38:39| 746.6|  3.8|INFORM|FFS writer: Completed 41.48% of intermediate processing
+2023-12-10 07:38:44| 750.3|  3.7|INFORM|FFS writer: Completed 85.57% of intermediate processing
+2023-12-10 07:38:46| 751.2|  0.9|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:38:46| 751.2|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:38:46| 751.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:38:46| 751.2|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:38:46| 751.2|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:38:46| 751.2|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:38:46| 751.2|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:38:46| 751.2|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\SY.tif'
+2023-12-10 07:38:46| 751.2|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:38:46| 751.2|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:38:46| 751.2|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:38:46| 751.2|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:38:46| 751.2|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:38:46| 751.3|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4037, 4038)
+2023-12-10 07:38:46| 751.3|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003513675176651664, 0.00022482022481587176)
+2023-12-10 07:38:46| 751.3|  0.0|INFORM|Reprojector: Recalculating raster extents from (300000, 0), (400000, 100000) to (-3.4201196451882536, 49.89195216652255), (-2.0012976088563117, 50.79955141410422)
+2023-12-10 07:38:51| 755.1|  3.8|INFORM|FFS writer: Completed 43.37% of intermediate processing
+2023-12-10 07:38:56| 758.7|  3.6|INFORM|FFS writer: Completed 88.55% of intermediate processing
+2023-12-10 07:38:57| 759.5|  0.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:39:02| 763.0|  3.5|INFORM|FFS writer: Completed 45.33% of intermediate processing
+2023-12-10 07:39:07| 766.5|  3.5|INFORM|FFS writer: Completed 90.16% of intermediate processing
+2023-12-10 07:39:08| 767.3|  0.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:39:08| 767.3|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:39:08| 767.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:39:08| 767.3|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:39:08| 767.3|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:39:08| 767.3|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:39:08| 767.3|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:39:08| 767.3|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\SZ.tif'
+2023-12-10 07:39:08| 767.3|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:39:08| 767.3|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:39:08| 767.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:39:08| 767.3|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:39:08| 767.4|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:39:08| 767.4|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4037, 4038)
+2023-12-10 07:39:08| 767.4|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003513707119338366, 0.0002248199052778483)
+2023-12-10 07:39:08| 767.4|  0.0|INFORM|Reprojector: Recalculating raster extents from (400000, 0), (500000, 100000) to (-2.0013603718357262, 49.89195346451928), (-0.5825254370468942, 50.79955142212596)
+2023-12-10 07:39:13| 770.8|  3.4|INFORM|FFS writer: Completed 43.52% of intermediate processing
+2023-12-10 07:39:18| 774.5|  3.7|INFORM|FFS writer: Completed 87.09% of intermediate processing
+2023-12-10 07:39:20| 775.3|  0.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:39:25| 779.0|  3.7|INFORM|FFS writer: Completed 45.28% of intermediate processing
+2023-12-10 07:39:30| 782.3|  3.3|INFORM|FFS writer: Completed 89.81% of intermediate processing
+2023-12-10 07:39:31| 783.2|  0.9|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:39:31| 783.2|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:39:31| 783.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:39:31| 783.2|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:39:31| 783.2|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:39:31| 783.2|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:39:31| 783.2|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:39:31| 783.2|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\TA.tif'
+2023-12-10 07:39:31| 783.2|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:39:31| 783.2|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:39:31| 783.2|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:39:31| 783.2|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:39:31| 783.2|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:39:31| 783.2|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4126, 4127)
+2023-12-10 07:39:31| 783.2|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003805971721374221, 0.00022462478987001543)
+2023-12-10 07:39:31| 783.2|  0.0|INFORM|Reprojector: Recalculating raster extents from (500000, 400000), (600000, 500000) to (-0.49436231625448596, 53.45889221998039), (1.076362213156655, 54.385694102984075)
+2023-12-10 07:39:36| 786.9|  3.7|INFORM|FFS writer: Completed 41.1% of intermediate processing
+2023-12-10 07:39:41| 790.4|  3.5|INFORM|FFS writer: Completed 83.08% of intermediate processing
+2023-12-10 07:39:43| 791.9|  1.5|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:39:48| 795.6|  3.7|INFORM|FFS writer: Completed 41.29% of intermediate processing
+2023-12-10 07:39:53| 799.2|  3.6|INFORM|FFS writer: Completed 82.62% of intermediate processing
+2023-12-10 07:39:55| 800.7|  1.5|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:39:55| 800.8|  0.1|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:39:55| 800.8|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:39:55| 800.8|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:39:55| 800.8|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:39:55| 800.8|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:39:55| 800.8|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:39:55| 800.8|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\TF.tif'
+2023-12-10 07:39:55| 800.8|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:39:55| 800.8|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:39:55| 800.8|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:39:55| 800.8|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:39:55| 800.9|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:39:55| 800.9|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4122, 4123)
+2023-12-10 07:39:55| 800.9|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003726438725773696, 0.0002246639874396827)
+2023-12-10 07:39:55| 800.9|  0.0|INFORM|Reprojector: Recalculating raster extents from (500000, 300000), (600000, 400000) to (-0.5253313473840463, 52.561178165938685), (1.0110793392524484, 53.487243122165054)
+2023-12-10 07:40:00| 804.7|  3.8|INFORM|FFS writer: Completed 41.5% of intermediate processing
+2023-12-10 07:40:06| 807.9|  3.2|INFORM|FFS writer: Completed 77.17% of intermediate processing
+2023-12-10 07:40:08| 809.9|  2.0|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:40:13| 813.5|  3.6|INFORM|FFS writer: Completed 41.19% of intermediate processing
+2023-12-10 07:40:18| 817.1|  3.6|INFORM|FFS writer: Completed 83.69% of intermediate processing
+2023-12-10 07:40:20| 818.4|  1.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:40:20| 818.4|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:40:20| 818.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:40:20| 818.4|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:40:20| 818.4|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:40:20| 818.4|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:40:20| 818.4|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:40:20| 818.4|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\TG.tif'
+2023-12-10 07:40:20| 818.4|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:40:20| 818.4|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:40:20| 818.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:40:20| 818.4|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:40:20| 818.4|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:40:20| 818.4|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4409, 4008)
+2023-12-10 07:40:20| 818.4|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003906056758940921, 0.00021416062640728997)
+2023-12-10 07:40:20| 818.4|  0.0|INFORM|Reprojector: Recalculating raster extents from (600000, 300000), (700000, 400000) to (0.9491746013130559, 52.51455075618859), (2.514722150296577, 53.458784958018335)
+2023-12-10 07:40:25| 821.6|  3.2|INFORM|FFS writer: Completed 39.94% of intermediate processing
+2023-12-10 07:40:30| 825.2|  3.6|INFORM|FFS writer: Completed 80.01% of intermediate processing
+2023-12-10 07:40:33| 826.9|  1.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:40:38| 830.6|  3.7|INFORM|FFS writer: Completed 38.28% of intermediate processing
+2023-12-10 07:40:43| 834.5|  3.9|INFORM|FFS writer: Completed 78.52% of intermediate processing
+2023-12-10 07:40:45| 836.2|  1.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:40:45| 836.3|  0.1|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:40:45| 836.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:40:45| 836.3|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:40:45| 836.3|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:40:45| 836.3|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:40:45| 836.3|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:40:45| 836.3|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\TL.tif'
+2023-12-10 07:40:45| 836.3|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:40:45| 836.3|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:40:45| 836.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:40:45| 836.3|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:40:46| 836.3|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:40:46| 836.3|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4119, 4119)
+2023-12-10 07:40:46| 836.3|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003651066378151873, 0.00022469916484114033)
+2023-12-10 07:40:46| 836.3|  0.0|INFORM|Reprojector: Recalculating raster extents from (500000, 200000), (600000, 300000) to (-0.5547074478620398, 51.66309685094504), (0.9491667932987166, 52.588632710925694)
+2023-12-10 07:40:51| 839.8|  3.5|INFORM|FFS writer: Completed 42.29% of intermediate processing
+2023-12-10 07:40:56| 843.4|  3.6|INFORM|FFS writer: Completed 84.14% of intermediate processing
+2023-12-10 07:40:57| 844.9|  1.5|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:41:02| 848.3|  3.4|INFORM|FFS writer: Completed 41.95% of intermediate processing
+2023-12-10 07:41:07| 851.7|  3.4|INFORM|FFS writer: Completed 83.83% of intermediate processing
+2023-12-10 07:41:09| 853.2|  1.5|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:41:09| 853.2|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:41:09| 853.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:41:09| 853.2|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:41:09| 853.2|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:41:09| 853.2|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:41:09| 853.2|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:41:09| 853.2|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\TM.tif'
+2023-12-10 07:41:09| 853.2|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:41:09| 853.2|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:41:09| 853.2|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:41:09| 853.2|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:41:10| 853.3|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:41:10| 853.3|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4357, 4043)
+2023-12-10 07:41:10| 853.3|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00037875513441537655, 0.00021643800605415805)
+2023-12-10 07:41:10| 853.3|  0.0|INFORM|Reprojector: Recalculating raster extents from (600000, 200000), (700000, 300000) to (0.8904814131330072, 51.61806410267929), (2.421788421574375, 52.56108449505726)
+2023-12-10 07:41:15| 856.8|  3.5|INFORM|FFS writer: Completed 39.77% of intermediate processing
+2023-12-10 07:41:20| 860.4|  3.6|INFORM|FFS writer: Completed 80.33% of intermediate processing
+2023-12-10 07:41:22| 862.1|  1.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:41:27| 865.7|  3.6|INFORM|FFS writer: Completed 40.16% of intermediate processing
+2023-12-10 07:41:32| 869.3|  3.6|INFORM|FFS writer: Completed 81.31% of intermediate processing
+2023-12-10 07:41:34| 871.0|  1.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:41:34| 871.0|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:41:34| 871.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:41:34| 871.0|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:41:34| 871.0|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:41:34| 871.0|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:41:34| 871.0|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:41:34| 871.0|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\TQ.tif'
+2023-12-10 07:41:34| 871.0|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:41:34| 871.0|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:41:34| 871.0|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:41:34| 871.0|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:41:34| 871.0|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:41:34| 871.0|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4115, 4115)
+2023-12-10 07:41:34| 871.0|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003579555345542609, 0.00022473040306592176)
+2023-12-10 07:41:34| 871.0|  0.0|INFORM|Reprojector: Recalculating raster extents from (500000, 100000), (600000, 200000) to (-0.5826053742978645, 50.76509796688289), (0.8903816503929192, 51.68986357549916)
+2023-12-10 07:41:39| 874.6|  3.6|INFORM|FFS writer: Completed 41.82% of intermediate processing
+2023-12-10 07:41:44| 878.1|  3.5|INFORM|FFS writer: Completed 84.05% of intermediate processing
+2023-12-10 07:41:46| 879.7|  1.6|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:41:51| 883.0|  3.3|INFORM|FFS writer: Completed 43.28% of intermediate processing
+2023-12-10 07:41:56| 886.5|  3.5|INFORM|FFS writer: Completed 84.9% of intermediate processing
+2023-12-10 07:41:58| 887.8|  1.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:41:58| 887.8|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:41:58| 887.8|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:41:58| 887.8|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:41:58| 887.8|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:41:58| 887.8|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:41:58| 887.8|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:41:58| 887.8|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\TR.tif'
+2023-12-10 07:41:58| 887.8|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:41:58| 887.8|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:41:58| 887.8|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:41:58| 887.8|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:41:58| 887.8|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:41:58| 887.8|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4329, 4058)
+2023-12-10 07:41:58| 887.8|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.000369487144914349, 0.00021756071562528627)
+2023-12-10 07:41:58| 887.8|  0.0|INFORM|Reprojector: Recalculating raster extents from (600000, 100000), (700000, 200000) to (0.8347563233791142, 50.72136429896465), (2.3341351574415423, 51.663184636906514)
+2023-12-10 07:42:03| 890.9|  3.1|INFORM|FFS writer: Completed 41.44% of intermediate processing
+2023-12-10 07:42:08| 894.6|  3.7|INFORM|FFS writer: Completed 81.45% of intermediate processing
+2023-12-10 07:42:11| 896.3|  1.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:42:16| 899.9|  3.6|INFORM|FFS writer: Completed 40.79% of intermediate processing
+2023-12-10 07:42:21| 903.2|  3.3|INFORM|FFS writer: Completed 81.51% of intermediate processing
+2023-12-10 07:42:23| 904.8|  1.6|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:42:23| 904.8|  0.0|INFORM|Creating reader for format: GeoTIFF (Geo-referenced Tagged Image File Format)
+2023-12-10 07:42:23| 904.8|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `GEOTIFF'
+2023-12-10 07:42:23| 904.8|  0.0|INFORM|GEOTIFF reader: Directive '_READ_OFFSETS_IN_CS_UNITS' has value 'No'
+2023-12-10 07:42:23| 904.8|  0.0|INFORM|GEOTIFF reader: Directive '_PREFER_FILE_CS_UNITS' has value 'Yes'
+2023-12-10 07:42:23| 904.8|  0.0|INFORM|GEOTIFF reader: Directive '_IGNORE_RASTER_TYPE_KEY' has value 'No'
+2023-12-10 07:42:23| 904.8|  0.0|INFORM|GEOTIFF reader: Directive '_LENIENT_READ' has value 'Yes'
+2023-12-10 07:42:23| 904.8|  0.0|INFORM|GEOTIFF reader: Opening file 'C:\Users\Adam\Desktop\ras250_gb\ras250_gb\data\TV.tif'
+2023-12-10 07:42:23| 904.8|  0.0|WARN  |GEOTIFF reader: The definition of geographic CRS EPSG:4277 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2023-12-10 07:42:23| 904.8|  0.0|INFORM|GEOTIFF reader: Directive '_APPLY_GCPS' has the value 'NO'
+2023-12-10 07:42:23| 904.8|  0.0|INFORM|FME Configuration: Source coordinate system for reader GEOTIFF_1[GEOTIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2023-12-10 07:42:23| 904.8|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2023-12-10 07:42:23| 904.8|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2023-12-10 07:42:23| 904.9|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4111, 4112)
+2023-12-10 07:42:23| 904.9|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003511590579303224, 0.0002247624335914236)
+2023-12-10 07:42:23| 904.9|  0.0|INFORM|Reprojector: Recalculating raster extents from (500000, 0), (600000, 100000) to (-0.6091141086951576, 49.866944461089155), (0.8348519375143281, 50.7909428255835)
+2023-12-10 07:42:28| 908.4|  3.5|INFORM|FFS writer: Completed 42.47% of intermediate processing
+2023-12-10 07:42:33| 912.1|  3.7|INFORM|FFS writer: Completed 84.94% of intermediate processing
+2023-12-10 07:42:35| 913.4|  1.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:42:40| 917.0|  3.6|INFORM|FFS writer: Completed 42.05% of intermediate processing
+2023-12-10 07:42:45| 920.7|  3.7|INFORM|FFS writer: Completed 82.34% of intermediate processing
+2023-12-10 07:42:47| 922.4|  1.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2023-12-10 07:42:47| 922.4|  0.0|INFORM|MULTI_READER(GEOTIFF_1): Done reading 56 features from 56 readers
+2023-12-10 07:42:47| 922.4|  0.0|INFORM|MULTI_READER(MULTI_READER): Done reading 56 features from 1 readers
+2023-12-10 07:42:47| 922.4|  0.0|INFORM|Emptying factory pipeline
+2023-12-10 07:42:47| 922.4|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 56 input feature(s), wrote 56 output feature(s): 56 matched merge filters, 56 were routed to output, 0 could not be routed.
+2023-12-10 07:42:47| 922.4|  0.0|STATS |Unwanted Router Input Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-12-10 07:42:47| 922.4|  0.0|STATS |GEOTIFF_GEOTIFF_1 Splitter (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2023-12-10 07:42:47| 922.4|  0.0|STATS |Reprojector (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2023-12-10 07:42:47| 922.4|  0.0|STATS |RasterPropertyExtractor (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2023-12-10 07:42:47| 922.4|  0.0|STATS |RasterPropertyExtractor_Rejector (TestFactory): Tested 56 input feature(s) -- 0 feature(s) passed and 56 feature(s) failed
+2023-12-10 07:42:47| 922.4|  0.0|STATS |RasterExtentsCoercer_RasterExtents (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2023-12-10 07:42:47| 922.5|  0.1|STATS |RasterExtentsCoercer_Rejector (TestFactory): Tested 56 input feature(s) -- 0 feature(s) passed and 56 feature(s) failed
+2023-12-10 07:42:47| 922.5|  0.0|STATS |FilePropertyExtractor Input Input Collector (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2023-12-10 07:42:47| 922.5|  0.0|STATS |FilePropertyExtractor_Input1702189279 Input Splitter (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2023-12-10 07:42:47| 922.5|  0.0|STATS |FilePropertyExtractor_ParameterFetcher (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2023-12-10 07:42:47| 922.5|  0.0|INFORM|Optional `process_group' method not present; not called
+2023-12-10 07:42:47| 922.5|  0.0|INFORM|Optional `close' method not present; not called
+2023-12-10 07:42:47| 922.5|  0.0|STATS |FilePropertyExtractor_Tester (TestFactory): Tested 56 input feature(s) -- 56 feature(s) passed and 0 feature(s) failed
+2023-12-10 07:42:47| 922.5|  0.0|STATS |FilePropertyExtractor_AttributeRemover (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2023-12-10 07:42:47| 922.5|  0.0|STATS |FilePropertyExtractor_DateFormatter (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2023-12-10 07:42:47| 922.5|  0.0|STATS |FilePropertyExtractor_AttributeRemover_2 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-12-10 07:42:47| 922.5|  0.0|STATS |FilePropertyExtractor_Output1702189279 Output Collector (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2023-12-10 07:42:47| 922.5|  0.0|STATS |FilePropertyExtractor_<Rejected>1702189279 Output Collector (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-12-10 07:42:47| 922.5|  0.0|STATS |FilePropertyExtractor Output Output Renamer/Nuker (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2023-12-10 07:42:47| 922.5|  0.0|STATS |FilePropertyExtractor <Rejected> Output Renamer/Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-12-10 07:42:47| 922.5|  0.0|STATS |FilePropertyExtractor__Rejected__Logger (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-12-10 07:42:47| 922.5|  0.0|STATS |RasterExtentsCoercer__Rejected__Logger (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-12-10 07:42:47| 922.5|  0.0|STATS |RasterPropertyExtractor__Rejected__Logger (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-12-10 07:42:47| 922.5|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 56 input feature(s), wrote 56 output feature(s): 0 matched merge filters, 56 were routed to output, 0 could not be routed.
+2023-12-10 07:42:47| 922.5|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-12-10 07:42:47| 922.5|  0.0|INFORM|MULTI_WRITER: multi_writer_id `2': Started outputting features
+2023-12-10 07:42:48| 922.6|  0.1|INFORM|FME Configuration: Using connection values from 'Zadanie_2' for POSTGIS_1
+2023-12-10 07:42:48| 922.6|  0.0|INFORM|Creating writer for format: PostGIS
+2023-12-10 07:42:48| 922.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `POSTGIS'
+2023-12-10 07:42:48| 922.6|  0.0|INFORM|Loaded module 'POSTGIS' from file 'D:\FME\plugins/POSTGIS.dll'
+2023-12-10 07:42:48| 922.6|  0.0|INFORM|FME API version of module 'POSTGIS' matches current internal version (4.0 20230426)
+2023-12-10 07:42:48| 922.6|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2023-12-10 07:42:48| 922.6|  0.0|INFORM|Writer `POSTGIS_1' of type `POSTGIS' using group definition keyword `POSTGIS_1_DEF'
+2023-12-10 07:42:48| 922.7|  0.1|INFORM|Opening POSTGIS writer for dataset 'Results'...
+2023-12-10 07:42:48| 922.7|  0.0|INFORM|PostGIS client encoding: 'UTF8'
+2023-12-10 07:42:48| 922.7|  0.0|INFORM|PostgreSQL 16.0, compiled by Visual C++ build 1935, 64-bit
+2023-12-10 07:42:48| 922.7|  0.0|INFORM|3.4 USE_GEOS=1 USE_PROJ=1 USE_STATS=1
+2023-12-10 07:42:48| 922.7|  0.0|INFORM|Testing for the existence of table 'public.Extents'...
+2023-12-10 07:42:48| 922.7|  0.0|INFORM|Creating table 'public.Extents'...
+2023-12-10 07:42:48| 922.7|  0.0|INFORM|POSTGIS Writer: Creating 'unquoted WKB' geometry processor for feature type 'Extents'
+2023-12-10 07:42:48| 922.7|  0.0|INFORM|POSTGIS Writer: Creating 'streaming Bulk Copy' feature type processor for feature type 'Extents'
+2023-12-10 07:42:48| 922.7|  0.0|INFORM|Creating 'GIST' index on column "geom" of table 'public.Extents'...
+2023-12-10 07:42:48| 922.7|  0.0|INFORM|Successfully closed POSTGIS database writer
+2023-12-10 07:42:48| 922.7|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-12-10 07:42:48| 922.7|  0.0|INFORM|Feature output statistics for `POSTGIS' writer using keyword `POSTGIS_1':
+2023-12-10 07:42:48| 922.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-12-10 07:42:48| 922.7|  0.0|STATS |                               Features Written
+2023-12-10 07:42:48| 922.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-12-10 07:42:48| 922.7|  0.0|STATS |Extents                                                                     56
+2023-12-10 07:42:48| 922.7|  0.0|STATS |==============================================================================
+2023-12-10 07:42:48| 922.7|  0.0|STATS |Total Features Written                                                      56
+2023-12-10 07:42:48| 922.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-12-10 07:42:48| 922.7|  0.0|INFORM|MULTI_WRITER: multi_writer_id `2': done writing 56 feature(s) 
+2023-12-10 07:42:48| 922.7|  0.0|INFORM|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023-12-10 07:42:48| 922.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-12-10 07:42:48| 922.7|  0.0|STATS |                            Features Read Summary
+2023-12-10 07:42:48| 922.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-12-10 07:42:48| 922.7|  0.0|STATS |GEOTIFF                                                                     56
+2023-12-10 07:42:48| 922.7|  0.0|STATS |==============================================================================
+2023-12-10 07:42:48| 922.7|  0.0|STATS |Total Features Read                                                         56
+2023-12-10 07:42:48| 922.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-12-10 07:42:48| 922.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-12-10 07:42:48| 922.7|  0.0|STATS |                           Features Written Summary
+2023-12-10 07:42:48| 922.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-12-10 07:42:48| 922.7|  0.0|STATS |Extents                                                                     56
+2023-12-10 07:42:48| 922.7|  0.0|STATS |==============================================================================
+2023-12-10 07:42:48| 922.7|  0.0|STATS |Total Features Written                                                      56
+2023-12-10 07:42:48| 922.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-12-10 07:42:48| 922.7|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2023-12-10 07:42:48| 922.7|  0.0|WARN  |-~                                                                             ~-
+2023-12-10 07:42:48| 922.7|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2023-12-10 07:42:48| 922.7|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2023-12-10 07:42:48| 922.7|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2023-12-10 07:42:48| 922.7|  0.0|WARN  |-~                                                                             ~-
+2023-12-10 07:42:48| 922.7|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2023-12-10 07:42:48| 922.7|  0.0|INFORM|Translation was SUCCESSFUL with 63 warning(s) (56 feature(s) output)
+2023-12-10 07:42:48| 922.7|  0.0|INFORM|FME Session Duration: 21 minutes 27.5 seconds. (CPU: 871.9s user, 50.8s system)
+2023-12-10 07:42:48| 922.7|  0.0|INFORM|END - ProcessID: 17372, peak process memory usage: 178508 kB, current process memory usage: 131236 kB
